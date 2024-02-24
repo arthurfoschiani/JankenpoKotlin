@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewPadrao"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/padrao"
+        android:layout_margin="120dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp"
+        android:text="Escolha uma opção:"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewPapel"
+            android:layout_weight="1"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/papel"/>
+
+        <ImageView
+            android:id="@+id/imageViewPedra"
+            android:layout_weight="1"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/pedra"/>
+
+        <ImageView
+            android:id="@+id/imageViewTesoura"
+            android:layout_weight="1"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/tesoura"/>
+
+    </LinearLayout>
+
+</LinearLayout>

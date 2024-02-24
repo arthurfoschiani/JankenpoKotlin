@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Jankenpo</string>
+    <string name="result_app_loses">Computador escolheu %s. Você perdeu!</string>
+    <string name="result_app_wins">Computador escolheu %s. Você venceu!</string>
+    <string name="result_draw">Computador escolheu %s. Empatou!</string>
+</resources>
